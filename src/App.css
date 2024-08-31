@@ -1,0 +1,45 @@
+.App {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.progress {
+  width: 50%;
+  min-height: 18px;
+  margin: 10px;
+  border-radius: 10px;
+  border: solid 1px #e0e0e0;
+  background-color: #e0e0e0;
+}
+
+.percentage {
+  font-size: 12px;
+  position: absolute;
+  right: 5px;
+  top: 2px;
+  color: #fff;
+}
+
+button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  border: solid 1px #e0e0e0;
+  background-color: #000;
+  padding: 5px 10px;
+  border-radius: 4px;
+  outline: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
